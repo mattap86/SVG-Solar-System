@@ -1,0 +1,48 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.planet {
+    transform-origin: center;
+}
+
+@keyframes planetOrbit {
+    100% {transform: rotate(360deg)}
+}
+
+#mercury {
+    animation: planetOrbit 6.2893s linear infinite;
+}
+
+#venus {
+    animation: planetOrbit 8.4745s linear infinite;
+}
+
+#earth {
+    animation: planetOrbit 10s linear infinite;
+}
+
+#mars {
+    animation: planetOrbit 12.3762s linear infinite;
+}
+
+#jupiter {
+    animation: planetOrbit 22.7790s linear infinite;
+}
+
+#saturn, #saturnInnerRing, #saturnCentreRing, #saturnOuterRing {
+    animation: planetOrbit 30.7692s linear infinite;
+}
+
+#neptune {
+    animation: planetOrbit 43.8596s linear infinite;
+}
+
+#uranus {
+    animation: planetOrbit 54.9450s linear infinite;
+}
+
+#pluto, #plutoPointer, #plutoText {
+    animation: planetOrbit 63.6942s linear infinite;
+}
